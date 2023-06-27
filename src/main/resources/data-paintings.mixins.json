@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "tk.estecka.datapaint.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"PaintingEntityMixin",
+		"SimpleRegistryMixin",
+		"TagManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

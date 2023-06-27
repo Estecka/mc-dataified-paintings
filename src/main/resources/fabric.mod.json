@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "data-paintings",
+	"version": "${version}",
+	"name": "Dataified Paintings",
+	"description": "Data-driven, vanilla-compliant painting variants",
+	"authors": [
+		"Estecka"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/dataified-paintings",
+		"sources": "https://github.com/Estecka/mc-dataified-paintings"
+	},
+	"license": "GNU AGPLv3",
+	"icon": "assets/datapaint/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"tk.estecka.datapaint.DataPaint"
+		]
+	},
+	"mixins": [
+		"data-paintings.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}
