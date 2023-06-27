@@ -52,7 +52,7 @@ The combined pack structure would look something like this:
 ```
 
 ### Missing Variants
-In vanilla minecraft, a painting an unknown variant id is reversed to the "Kebab" variant.
+In vanilla minecraft, a painting bearing an unknown variant id is reversed to the "Kebab" variant.
 
 With Dataified Paintings, a placeholder 1x1 variant will be created, and the paintings will never loose its variant id. This gives you the leisure to make mistakes while developping datapacks, so a broken one will not result in your already existing paintings to transformed.  
 This applies to both placed paintings, and painting items.
